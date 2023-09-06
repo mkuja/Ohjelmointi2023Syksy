@@ -5,3 +5,4 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_subdirectory(viikko1)
 add_subdirectory(viikko2)
+add_subdirectory(viikko3)
