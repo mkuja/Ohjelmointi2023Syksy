@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ChessClock</class>
+ <widget class="QMainWindow" name="ChessClock">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>746</width>
+    <height>496</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>ChessClock</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>394</width>
+      <height>256</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_4">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QProgressBar" name="player1_progress">
+           <property name="value">
+            <number>24</number>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="switch_pl_1">
+           <property name="text">
+            <string>Switch Player</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>158</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="QProgressBar" name="player2_progress">
+           <property name="value">
+            <number>24</number>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="switch_pl_2">
+           <property name="text">
+            <string>Switch player</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <spacer name="verticalSpacer">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="font">
+            <font>
+             <family>Consolas</family>
+             <pointsize>18</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Tekstiä</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <spacer name="horizontalSpacer_3">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="two_minutes">
+           <property name="text">
+            <string>120sec</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="five_minutes">
+           <property name="text">
+            <string>5min</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_4">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <spacer name="verticalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_5">
+       <item>
+        <spacer name="horizontalSpacer_5">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QPushButton" name="start_game">
+           <property name="text">
+            <string>START GAME</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="end_game">
+           <property name="text">
+            <string>END GAME</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_6">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>two_minutes</sender>
+   <signal>clicked()</signal>
+   <receiver>ChessClock</receiver>
+   <slot>setTwoMinutes()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>148</x>
+     <y>157</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>164</x>
+     <y>314</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>five_minutes</sender>
+   <signal>clicked()</signal>
+   <receiver>ChessClock</receiver>
+   <slot>setFiveMinutes()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>220</x>
+     <y>160</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>456</x>
+     <y>195</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>switch_pl_2</sender>
+   <signal>clicked()</signal>
+   <receiver>ChessClock</receiver>
+   <slot>player2Move()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>343</x>
+     <y>50</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>448</x>
+     <y>94</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>switch_pl_1</sender>
+   <signal>clicked()</signal>
+   <receiver>ChessClock</receiver>
+   <slot>player1Move()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>36</x>
+     <y>50</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>140</x>
+     <y>89</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>start_game</sender>
+   <signal>clicked()</signal>
+   <receiver>ChessClock</receiver>
+   <slot>startGame()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>116</x>
+     <y>241</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>115</x>
+     <y>393</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>end_game</sender>
+   <signal>clicked()</signal>
+   <receiver>ChessClock</receiver>
+   <slot>endGame()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>265</x>
+     <y>248</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>260</x>
+     <y>407</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>setTwoMinutes()</slot>
+  <slot>setFiveMinutes()</slot>
+  <slot>player2Move()</slot>
+  <slot>player1Move()</slot>
+  <slot>startGame()</slot>
+  <slot>endGame()</slot>
+ </slots>
+</ui>
